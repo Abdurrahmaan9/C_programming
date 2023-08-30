@@ -1,0 +1,6 @@
+Write a program ( ZAMTEL Menu) to simulate the MTN Menu using the Unstructured 
+Supplementary Service Data (USSD) of *117#.
+The system should prompts the user to enter a value which will correspond to the 
+required functionalities.
+ (Kindly take time to study the CURRENT ZAMTEL USSD MENU *117# 
+quick codes)

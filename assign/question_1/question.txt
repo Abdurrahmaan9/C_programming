@@ -1,0 +1,5 @@
+Write a program that calculates and displays the weekly salary for employee who earns 
+$20 an hour on 30 regular working hours, and earns time and half (wages * 1.5) for over 
+time worked:
+Required:
+Prompt the User to only enter the number of hours worked.

@@ -1,0 +1,5 @@
+Write a program (Financial application: future investment) that reads (prompts) in investment 
+amount, annual interest rate, and number of years to invest, and displays the future 
+investment values from year1…. YearT; using the following formula:
+[Pt = Po (1+r)t
+] where; Amount = principle * math.pow (1.0 + rate, year)
