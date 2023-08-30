@@ -11,7 +11,7 @@ int main()
     int total_hours_worked;
     float total_salary, regular_salary, overtime_salary;
 
-    printf("Enter the time you worked: ");
+    printf("\nEnter the time you worked: ");
     scanf("%d", &total_hours_worked);
 
     // IF..ELSE statement to huncle all the the calculations
