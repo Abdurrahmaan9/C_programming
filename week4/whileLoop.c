@@ -7,8 +7,8 @@ int i;
 i=1;
 while(i<6)
 {
-printf("CAVENDISH HERE I COME!\n");
-i++;
+    printf("CAVENDISH HERE I COME!\n");
+    i++;
 }
 return(0);
 }
