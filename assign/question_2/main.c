@@ -1,37 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <math.h>
 
-int main()
-{
-    /* code */
-    printf("\tfinancial application\n");
+int main() {
+  double principal, interest_rate, future_value;
+  int years;
 
-    double investment_amount, annual_interest_rate;
-    int number_of_years_to_invest;
+  printf("Enter the principal amount: ");
+  scanf("%lf", &principal);
 
-    // getting the principle amount 
-    printf("Enter the Investment Amount: ");
-    scanf("%lf", &investment_amount);
+  printf("Enter the annual interest rate: ");
+  scanf("%lf", &interest_rate);
 
-    // getting the annual interest amount 
-    printf("Enter the annual Interest Amount: ");
-    scanf("%lf", &annual_interest_rate);
+  printf("Enter the number of years: ");
+  scanf("%d", &years);
 
-    // getting the number of years for the investment  
-    printf("Enter the number_of_years_to_invest: ");
-    scanf("%d", &number_of_years_to_invest);
+  for (int i = 1; i <= years; i++) {
+    future_value = principal * pow(1 + interest_rate, i);
+    printf("Future value in year %d is: %lf\n", i, future_value);
+  }
 
-    
-    
-    // Calculate and display future investment values
-    printf("\nYear\tFuture Value\n");
-    for (int year = 1; year <= number_of_years_to_invest; year++) {
-        double futureValue = investment_amount * pow(1.0 + annual_interest_rate, year);
-        printf("%d\t%.2lf\n", year, futureValue);
-    }
-
-    
-    
-
-    return 0;
+  return 0;
 }
