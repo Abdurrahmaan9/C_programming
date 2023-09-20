@@ -2788,6 +2788,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -2825,6 +2826,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -2861,6 +2863,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -2913,6 +2916,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -2950,6 +2954,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -2987,6 +2992,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -3040,6 +3046,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -3077,6 +3084,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
@@ -3114,6 +3122,7 @@ int main(){
                                                 printf("Subscription cancelled\n");
                                                 break;
                                             }
+                                            break;
                                     case 2:
                                         printf("Subscription cancelled\n");
                                         break;
