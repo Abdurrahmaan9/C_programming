@@ -2662,24 +2662,481 @@ int main(){
                                 break;
                             case 3:
                                 /* code */
+                                printf("\tSupa Cheza\n");
+                                printf("1) Get 18 GB Data for 30 Days @ K100\n");
+                                printf("2) Get 25 GB data for 30 Days @ K150\n");
+                                printf("\n");
+                                printf("99) Main Menu\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                    case 1:
+                                        /* code */
+                                        printf("Choose a Payment Menthod\n");
+                                        printf("1) Main Account\n");
+                                        printf("2) Mobile Money\n");
+                                        printf("99) Main Menu\n");
+                                        // break;
+
+                                        scanf("%d", &user);
+                                        switch (user){
+                                            case 1:
+                                                /* code */
+                                                printf("You have subscribed to 18 GB Data for K100\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 18 GB Data for K100\n");
+                                                break;
+                                            case 3:
+                                                main();
+                                                break;
+                                        }
+                                        break;
+                                    case 2:
+                                        printf("Choose a Payment Menthod\n");
+                                        printf("1) Main Account\n");
+                                        printf("2) Mobile Money\n");
+                                        printf("99) Main Menu\n");
+                                        // break;
+
+                                        scanf("%d", &user);
+                                        switch (user){
+                                            case 1:
+                                                /* code */
+                                                printf("You have subscribed to 25 GB Data for K150\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 25 GB Data for K150\n");
+                                                break;
+                                            case 3:
+                                                main();
+                                                break;
+                                        }
+                                        break;
+                                    case 99:
+                                        main();
+                                        break;
+                                }
                                 break;
-                            
                             case 4:
+                                printf("You are not eligible for this offer\n");
                                 break;
                             case 5:
                                 /* code */
+                                printf("Thank you for using Zamtel\n");
                                 break;
-                            
                             case 99:
                                 break;
                         }
                         break;
                 }
                 break;
-            
             case 2:
+                // Mobile Data
+                printf("1) Daily\n");
+                printf("2) Weekly\n");
+                printf("3) Monthly\n");
+                printf("99) Main Menu\n");
+
+                scanf("%d", &user);
+                switch (user){
+                    case 1:
+                        /* code */
+                        printf("Select from the following\n");
+                        printf("1) 110MB - K2\n");
+                        printf("2) 380MB - K5\n");
+                        printf("3) 1.3GB - K10\n");
+                        printf("Press 99 for Main Menu\n");
+
+                        scanf("%d", &user);
+                        switch (user){
+                            case 1:
+                                /* code */
+                                printf("you selected the 110MB data bundle for K2\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 110MB data bundle for K2\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 110MB data bundle for K2\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 2:
+                                printf("you selected the 380MB data bundle for K5\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 380MB data bundle for K5\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 380MB data bundle for K5\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 3:
+                                printf("you selected the 1.3GB data bundle for K10\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 1.3GB data bundle for K10\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 1.3GB data bundle for K10\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 99:
+                                main();
+                                break;
+                            }
+                        break;
+                    case 2:
+                        printf("Select from the following\n");
+                        printf("1) 110MB - K2\n");
+                        printf("2) 380MB - K5\n");
+                        printf("3) 1.3GB - K10\n");
+                        printf("Press 99 for Main Menu\n");
+
+                        scanf("%d", &user);
+                        switch (user){
+                            case 1:
+                                /* code */
+                                printf("you selected the 2GB data bundle for K15\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 2GB data bundle for K15\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 2GB data bundle for K15\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 2:
+                                printf("you selected the 5GB data bundle for K25\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 5GB data bundle for K25\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 5GB data bundle for K25\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 3:
+                                printf("you selected the 11GB data bundle for K60\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to  11GB data bundle for K60\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to  11GB data bundle for K60\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 99:
+                                main();
+                                break;
+                            }
+                        break;
+                    case 3:
+                        /* code */
+                        printf("Select from the following\n");
+                        printf("1) 5.5GB - K60\n");
+                        printf("2) 15GB - K100\n");
+                        printf("3) 30GB - K200\n");
+                        printf("Press 99 for Main Menu\n");
+
+                        scanf("%d", &user);
+                        switch (user){
+                            case 1:
+                                /* code */
+                                printf("you selected the 5.5GB data bundle for K60\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 5.5GB data bundle for K60\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 5.5GB data bundle for K60\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 2:
+                                printf("you selected the 15GB data bundle for K100\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 15GB data bundle for K100\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 15GB data bundle for K100\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 3:
+                                printf("you selected the 30GB data bundle for K200\n");
+                                printf("1) Press 1 to confirm this purchase\n");
+                                printf("2) Press 2 to cancel\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                        // option 1 of 1 of 1
+                                    case 1:
+                                        /* code */
+                                        printf("\tPlease select payment method\n");
+                                        printf("1) Main account\n");
+                                        printf("2) Mobile Money\n");
+                                        // break;
+
+
+                                        scanf("%d", &user);
+                                        switch(user){
+                                            // under option 3
+                                            case 1 :
+                                                printf("You have subscribed to 30GB data bundle for K200\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 30GB data bundle for K200\n");
+                                                break;
+                                            default:
+                                                printf("Subscription cancelled\n");
+                                                break;
+                                            }
+                                    case 2:
+                                        printf("Subscription cancelled\n");
+                                        break;
+                                    }
+                                    break;
+                            case 99:
+                                main();
+                                break;
+                            }
+                        break;
+        
+                    case 99:
+                        main();
+                        break;
+                }
                 break;
             case 3:
+            // MOBILE DATA - VELOCITY
+                printf("1) Velocity 30 Days\n");
+                printf("2) Velocity 6 Months + 1 Month FREE\n");
+                printf("99) Main Menu\n");
+
+                scanf("%d", &user);
                 break;
             case 4:
                 break;
