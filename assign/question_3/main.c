@@ -296,141 +296,106 @@ int main(){
                 printf("99) Main menu\n");
                 // break;
 
-        
                 scanf("%d", &user);
                 switch (user){
-                case 1:
-                    /* code */
-                    printf("1) Get 30 OnNet Mins for 24Hours @K1\n");
-                    printf("2) Get 26 OnNet Mins for 24Hours @K2\n");
-                    printf("3) Get 41 OnNet Mins for 24Hours @K3\n");
-                    printf("99) Main menu\n");
-                    // break;
-
-            
-                    scanf("%d", &user);
-                    switch (user){
                     case 1:
-                        printf("Choose a Payment Menthod\n");
-                        printf("1) Main Account\n");
-                        printf("2) Mobile Money\n");
-                        printf("99) Main Menu\n");
+                        /* code */
+                        printf("1) Get 30 OnNet Mins for 24Hours @K1\n");
+                        printf("2) Get 26 OnNet Mins for 24Hours @K2\n");
+                        printf("3) Get 41 OnNet Mins for 24Hours @K3\n");
+                        printf("99) Main menu\n");
                         // break;
-                
-                        scanf("%d", &user);
-                        switch (user){
-                        case 1:
-                            /* code */
-                            printf("You have subscribed to 30 onNet minutes for K1\n");
-                            break;
-                        case 2:
-                            int pin;
-                            printf("Input mobile money pin\n");
-                            scanf("%d", &pin);
-                            printf("You have subscribed to 30 onNet minutes for K1\n");
-                            break;
-                        case 3:
-                            main();
-                            break;
-                        }
-                        break;
-                    case 2:
-                        printf("Choose a Payment Menthod\n");
-                        printf("1) Main Account\n");
-                        printf("2) Mobile Money\n");
-                        printf("99) Main Menu\n");
-                        // break;
-                
-                        scanf("%d", &user);
-                        switch (user){
-                        case 1:
-                            /* code */
-                            printf("You have subscribed to 26 onNet minutes for K2\n");
-                            break;
-                        case 2:
-                            int pin;
-                            printf("Input mobile money pin\n");
-                            scanf("%d", &pin);
-                            printf("You have subscribed to 26 onNet minutes for K2\n");
-                            break;
-                        case 3:
-                            main();
-                            break;
-                        }
-                        break;
-                    case 3:
-                        printf("Choose a Payment Menthod\n");
-                        printf("1) Main Account\n");
-                        printf("2) Mobile Money\n");
-                        printf("99) Main Menu\n");
-                        // break;
-                
-                        scanf("%d", &user);
-                        switch (user){
-                        case 1:
-                            /* code */
-                            printf("You have subscribed to 41 onNet minutes for K3\n");
-                            break;
-                        case 2:
-                            int pin;
-                            printf("Input mobile money pin\n");
-                            scanf("%d", &pin);
-                            printf("You have subscribed to 41 onNet minutes for K3\n");
-                            break;
-                        case 3:
-                            main();
-                            break;
-                        }
-                        break;
-                    case 99:
-                        main();
-                        break;
-                    }
-                    break;
-                
-                case 2:
-                    /*Supa cheza weekly*/
-                    printf("1) Get 44 onNet Mins for 7 Days @ K5\n");
-                    printf("2) Get 99 onNet Mins for 7 Days @ K10\n");
-                    // break;
 
-            
-                    scanf("%d", &user);
-                    switch (user){
-                        case 1:
-                        printf("Choose a Payment Menthod\n");
-                        printf("1) Main Account\n");
-                        printf("2) Mobile Money\n");
-                        printf("99) Main Menu\n");
-                        // break;
-                
                         scanf("%d", &user);
                         switch (user){
+                        case 1:
+                            printf("Choose a Payment Menthod\n");
+                            printf("1) Main Account\n");
+                            printf("2) Mobile Money\n");
+                            printf("99) Main Menu\n");
+                            // break;
+                    
+                            scanf("%d", &user);
+                            switch (user){
                             case 1:
                                 /* code */
-                                printf("You have subscribed to 44 onNet minutes for K5\n");
+                                printf("You have subscribed to 30 onNet minutes for K1\n");
                                 break;
                             case 2:
                                 int pin;
                                 printf("Input mobile money pin\n");
                                 scanf("%d", &pin);
-                                printf("You have subscribed to 99 onNet minutes for K10\n");
+                                printf("You have subscribed to 30 onNet minutes for K1\n");
                                 break;
-                            case 3:
+                            case 99:
                                 main();
                                 break;
                             }
                             break;
-                    }
-                case 3:
-                    /* Supa cheza Monthly */
-                    printf("1) Get 1200 onNet Mins for 30 Days @ K100\n");
-                    printf("99) Main Menu\n");
-                    // break;
-            
-                    scanf("%d", &user);
-                    switch (user){
-                        case 1:
+                        case 2:
+                            printf("Choose a Payment Menthod\n");
+                            printf("1) Main Account\n");
+                            printf("2) Mobile Money\n");
+                            printf("99) Main Menu\n");
+                            // break;
+                    
+                            scanf("%d", &user);
+                            switch (user){
+                            case 1:
+                                /* code */
+                                printf("You have subscribed to 26 onNet minutes for K2\n");
+                                break;
+                            case 2:
+                                int pin;
+                                printf("Input mobile money pin\n");
+                                scanf("%d", &pin);
+                                printf("You have subscribed to 26 onNet minutes for K2\n");
+                                break;
+                            case 99:
+                                main();
+                                break;
+                            }
+                            break;
+                        case 3:
+                            printf("Choose a Payment Menthod\n");
+                            printf("1) Main Account\n");
+                            printf("2) Mobile Money\n");
+                            printf("99) Main Menu\n");
+                            // break;
+                    
+                            scanf("%d", &user);
+                            switch (user){
+                            case 1:
+                                /* code */
+                                printf("You have subscribed to 41 onNet minutes for K3\n");
+                                break;
+                            case 2:
+                                int pin;
+                                printf("Input mobile money pin\n");
+                                scanf("%d", &pin);
+                                printf("You have subscribed to 41 onNet minutes for K3\n");
+                                break;
+                            case 99:
+                                main();
+                                break;
+                            }
+                            break;
+                        case 99:
+                            main();
+                            break;
+                        }
+                        break;
+                    
+                    case 2:
+                        /*Supa cheza weekly*/
+                        printf("1) Get 44 onNet Mins for 7 Days @ K5\n");
+                        printf("2) Get 99 onNet Mins for 7 Days @ K10\n");
+                        // break;
+
+                
+                        scanf("%d", &user);
+                        switch (user){
+                            case 1:
                             printf("Choose a Payment Menthod\n");
                             printf("1) Main Account\n");
                             printf("2) Mobile Money\n");
@@ -441,38 +406,71 @@ int main(){
                             switch (user){
                                 case 1:
                                     /* code */
-                                    printf("You have subscribed to 1200 onNet minutes for K100\n");
+                                    printf("You have subscribed to 44 onNet minutes for K5\n");
                                     break;
                                 case 2:
                                     int pin;
                                     printf("Input mobile money pin\n");
                                     scanf("%d", &pin);
-                                    printf("You have subscribed to 1200 onNet minutes for K100\n");
+                                    printf("You have subscribed to 99 onNet minutes for K10\n");
                                     break;
-                                case 3:
+                                case 99:
                                     main();
                                     break;
+                                }
+                                break;
+                        }
+                    case 3:
+                        /* Supa cheza Monthly */
+                        printf("1) Get 1200 onNet Mins for 30 Days @ K100\n");
+                        printf("99) Main Menu\n");
+                        // break;
+                
+                        scanf("%d", &user);
+                        switch (user){
+                            case 1:
+                                printf("Choose a Payment Menthod\n");
+                                printf("1) Main Account\n");
+                                printf("2) Mobile Money\n");
+                                printf("99) Main Menu\n");
+                                // break;
+                        
+                                scanf("%d", &user);
+                                switch (user){
+                                    case 1:
+                                        /* code */
+                                        printf("You have subscribed to 1200 onNet minutes for K100\n");
+                                        break;
+                                    case 2:
+                                        int pin;
+                                        printf("Input mobile money pin\n");
+                                        scanf("%d", &pin);
+                                        printf("You have subscribed to 1200 onNet minutes for K100\n");
+                                        break;
+                                    case 99:
+                                        main();
+                                        break;
+                                }
+                                break;
+                            case 99:
+                                main();
+                                break;
                             }
                             break;
-                        case 99:
-                            main();
-                            break;
-                        }
+                    case 4:
+                    /* Supa cheza YourGift*/
+                        printf("you are not eligible for this offer\n");
                         break;
-                case 4:
-                /* Supa cheza YourGift*/
-                    printf("you are not eligible for this offer\n");
-                    break;
-                case 5:
-                    /* Supa cheza Balance */
-                    printf("your balance is xxxxx");
-                    printf("Thank you for using Zamtel\n");
-                    break;
-                
-                case 99:
-                /* Main menu*/
-                    main();
-                    break;
+                    case 5:
+                        /* Supa cheza Balance */
+                        printf("your balance is xxxxx");
+                        printf("Thank you for using Zamtel\n");
+                        break;
+                    
+                    case 99:
+                    /* Main menu*/
+                        main();
+                        break;
                 }
                 break;
             case 2:
@@ -517,7 +515,7 @@ int main(){
                                     scanf("%d", &pin);
                                     printf("You have subscribed to 1.1 GB Data for K5\n");
                                     break;
-                                case 3:
+                                case 99:
                                     main();
                                     break;
                             }
@@ -541,7 +539,7 @@ int main(){
                                     scanf("%d", &pin);
                                     printf("You have subscribed to 3 GB Data for K10\n");
                                     break;
-                                case 3:
+                                case 99:
                                     main();
                                     break;
                             }
@@ -558,8 +556,7 @@ int main(){
                     printf("99) Main Menu\n");
 
                     scanf("%d", &user);
-                    switch (user)
-                    {
+                    switch (user){
                     case 1:
                         /* code */
                         printf("Choose a Payment Menthod\n");
@@ -580,13 +577,13 @@ int main(){
                                 scanf("%d", &pin);
                                 printf("You have subscribed to 6 GB Data for K20\n");
                                 break;
-                            case 3:
+                            case 99:
                                 main();
                                 break;
                         }
                         break;
                     
-                    case 2:
+                    case 99:
                         main();
                         break;
                     }
@@ -622,7 +619,7 @@ int main(){
                                 scanf("%d", &pin);
                                 printf("You have subscribed to 18 GB Data for K100\n");
                                 break;
-                            case 3:
+                            case 99:
                                 main();
                                 break;
                         }
@@ -646,7 +643,7 @@ int main(){
                                 scanf("%d", &pin);
                                 printf("You have subscribed to 25 GB Data for K150\n");
                                 break;
-                            case 3:
+                            case 99:
                                 main();
                                 break;
                         }
@@ -811,7 +808,7 @@ int main(){
                         break;
                     }
                     break;
-                case 4:
+                case 99:
                     main();
                     break;
                 }
@@ -1839,7 +1836,6 @@ int main(){
                                         printf("2) Mobile Money\n");
                                         // break;
 
-                                
                                         scanf("%d", &user);
                                         switch(user){
                                             case 1 :
@@ -2299,8 +2295,8 @@ int main(){
                                         default:
                                             printf("Subscription cancelled\n");
                                             break;
-                                        }
-                                        break;
+                                    }
+                                    break;
                                 case 2:
                                     printf("Subscription cancelled\n");
                                     break;
@@ -2356,6 +2352,9 @@ int main(){
                 break;
             case 3:
             // BUY4OTHERS
+                int receiving_number;
+                printf("Enter the receiving phone number(26095********)\n");
+                scanf("%d", &receiving_number);
                 break;
             case 99:
                 main();
@@ -2363,14 +2362,346 @@ int main(){
             }
             break;
     case 5:
+        //DATA OFFERS
+        printf("The Best Offers in Town:\n");
+        printf("1) SupaCheza Data\n");
+        printf("2) Mobile Data\n");
+        printf("3) Velocity\n");
+        printf("4) ZamtelHome\n");
+        printf("5) Buy4Other\n");
+        printf("6) Balance\n");
+        printf("7) Other Bundle\n");
+
+        scanf("%d", &user);
+        switch (user){
+            case 1:
+                /* code */
+                printf("Welcome to zamtel Offers\n");
+                printf("1. Voice Offers\n");
+                printf("1. Data Offers\n");
+
+                scanf("%d", &user);
+                switch (user){
+                    case 1:
+                    /* code */
+                    printf("\tSupa Cheza\n");
+                    printf("1) Daily\n");
+                    printf("2) Weekly\n");
+                    printf("3) Monthly\n");
+                    printf("4) YourGift\n");
+                    printf("5) Balance\n");
+                    printf("99) Main menu\n");
+                    // break;
+
+            
+                    scanf("%d", &user);
+                    switch (user){
+                        case 1:
+                            /* code */
+                            printf("1) Get 26 OnNet Mins for 24Hours @K2\n");
+                            printf("2) Get 41 OnNet Mins for 24Hours @K3\n");
+                            printf("99) Main menu\n");
+                            // break;
+
+                    
+                            scanf("%d", &user);
+                            switch (user){
+                                case 1:
+                                    printf("Choose a Payment Menthod\n");
+                                    printf("1) Main Account\n");
+                                    printf("2) Mobile Money\n");
+                                    printf("99) Main Menu\n");
+                                    // break;
+                            
+                                    scanf("%d", &user);
+                                    switch (user){
+                                        case 1:
+                                            /* code */
+                                            printf("You have subscribed to 26 onNet minutes for K2\n");
+                                            break;
+                                        case 2:
+                                            int pin;
+                                            printf("Input mobile money pin\n");
+                                            scanf("%d", &pin);
+                                            printf("You have subscribed to 26 onNet minutes for K2\n");
+                                            break;
+                                        case 99:
+                                            main();
+                                            break;
+                                    }
+                                    break;
+                                case 2:
+                                    printf("Choose a Payment Menthod\n");
+                                    printf("1) Main Account\n");
+                                    printf("2) Mobile Money\n");
+                                    printf("99) Main Menu\n");
+                                    // break;
+                            
+                                    scanf("%d", &user);
+                                    switch (user){
+                                        case 1:
+                                            /* code */
+                                            printf("You have subscribed to 41 onNet minutes for K3\n");
+                                            break;
+                                        case 2:
+                                            int pin;
+                                            printf("Input mobile money pin\n");
+                                            scanf("%d", &pin);
+                                            printf("You have subscribed to 41 onNet minutes for K3\n");
+                                            break;
+                                        case 99:
+                                            main();
+                                            break;
+                                    }
+                                    break;
+                                case 99:
+                                    main();
+                                    break;
+                            }
+                            break;
+                        case 2:
+                            /*Supa cheza weekly*/
+                            printf("1) Get 44 onNet Mins for 7 Days @ K5\n");
+                            printf("2) Get 99 onNet Mins for 7 Days @ K10\n");
+                            // break;
+
+                            scanf("%d", &user);
+                            switch (user){
+                                case 1:
+                                printf("Choose a Payment Menthod\n");
+                                printf("1) Main Account\n");
+                                printf("2) Mobile Money\n");
+                                printf("99) Main Menu\n");
+                                // break;
+                        
+                                scanf("%d", &user);
+                                switch (user){
+                                    case 1:
+                                        /* code */
+                                        printf("You have subscribed to 44 onNet minutes for K5\n");
+                                        break;
+                                    case 2:
+                                        int pin;
+                                        printf("Input mobile money pin\n");
+                                        scanf("%d", &pin);
+                                        printf("You have subscribed to 99 onNet minutes for K10\n");
+                                        break;
+                                    case 99:
+                                        main();
+                                        break;
+                                }
+                                break;
+                            }
+                            break;
+                        case 3:
+                            /* Supa cheza Monthly */
+                            printf("1) Get 1200 onNet Mins for 30 Days @ K100\n");
+                            printf("99) Main Menu\n");
+                            // break;
+                    
+                            scanf("%d", &user);
+                            switch (user){
+                                case 1:
+                                    printf("Choose a Payment Menthod\n");
+                                    printf("1) Main Account\n");
+                                    printf("2) Mobile Money\n");
+                                    printf("99) Main Menu\n");
+                                    // break;
+                            
+                                    scanf("%d", &user);
+                                    switch (user){
+                                        case 1:
+                                            /* code */
+                                            printf("You have subscribed to 1200 onNet minutes for K100\n");
+                                            break;
+                                        case 2:
+                                            int pin;
+                                            printf("Input mobile money pin\n");
+                                            scanf("%d", &pin);
+                                            printf("You have subscribed to 1200 onNet minutes for K100\n");
+                                            break;
+                                        case 99:
+                                            main();
+                                            break;
+                                    }
+                                    break;
+                                case 99:
+                                    main();
+                                    break;
+                                }
+                                break;
+                        case 4:
+                        /* Supa cheza YourGift*/
+                            printf("you are not eligible for this offer\n");
+                            break;
+                        case 5:
+                            /* Supa cheza Balance */
+                            printf("your balance is xxxxx");
+                            printf("Thank you for using Zamtel\n");
+                            break;
+                        
+                        case 99:
+                        /* Main menu*/
+                            main();
+                            break;
+                        }
+                        break;
+                    case 2:
+                        /*CHEZA Data Offers*/
+                        printf("SUPA Cheza\n");
+                        printf("1) Daily\n");
+                        printf("2) Weekly\n");
+                        printf("3) Monthly\n");
+                        printf("4) YourGift\n");
+                        printf("5) Balance\n");
+                        printf("99) Main Menu\n");
+
+                        scanf("%d", &user);
+                        switch (user){
+                            case 1:
+                                /* code */
+                                printf("\tSupa Cheza\n");
+                                printf("1) Get 1.1 GB Data for 24Hrs @ K5\n");
+                                printf("2) Get 3 GB Data for 24Hrs @ K10\n");
+                                printf("\n");
+                                printf("99) Main Menu\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                    case 1:
+                                        /* code */
+                                        printf("Choose a Payment Menthod\n");
+                                        printf("1) Main Account\n");
+                                        printf("2) Mobile Money\n");
+                                        printf("99) Main Menu\n");
+                                        // break;
+
+                                        scanf("%d", &user);
+                                        switch (user){
+                                            case 1:
+                                                /* code */
+                                                printf("You have subscribed to 1.1 GB Data for K5\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 1.1 GB Data for K5\n");
+                                                break;
+                                            case 99:
+                                                main();
+                                                break;
+                                        }
+                                        break;
+                                    case 2:
+                                        printf("Choose a Payment Menthod\n");
+                                        printf("1) Main Account\n");
+                                        printf("2) Mobile Money\n");
+                                        printf("99) Main Menu\n");
+                                        // break;
+
+                                        scanf("%d", &user);
+                                        switch (user){
+                                            case 1:
+                                                /* code */
+                                                printf("You have subscribed to 3 GB Data for K10\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 3 GB Data for K10\n");
+                                                break;
+                                            case 99:
+                                                main();
+                                                break;
+                                        }
+                                        break;
+                                    case 99:
+                                        main();
+                                        break;
+                                }
+                                break;
+                            case 2:
+                                printf("\tSupa Cheza\n");
+                                printf("1) Get 6 GB Data for 7 Days @ K20\n");
+                                printf("\n");
+                                printf("99) Main Menu\n");
+
+                                scanf("%d", &user);
+                                switch (user){
+                                    case 1:
+                                        /* code */
+                                        printf("Choose a Payment Menthod\n");
+                                        printf("1) Main Account\n");
+                                        printf("2) Mobile Money\n");
+                                        printf("99) Main Menu\n");
+                                        // break;
+
+                                        scanf("%d", &user);
+                                        switch (user){
+                                            case 1:
+                                                /* code */
+                                                printf("You have subscribed to 6 GB Data for K20\n");
+                                                break;
+                                            case 2:
+                                                int pin;
+                                                printf("Input mobile money pin\n");
+                                                scanf("%d", &pin);
+                                                printf("You have subscribed to 6 GB Data for K20\n");
+                                                break;
+                                            case 99:
+                                                main();
+                                                break;
+                                        }
+                                        break;
+                                    case 99:
+                                        main();
+                                        break;
+                                }
+                                break;
+                            case 3:
+                                /* code */
+                                break;
+                            
+                            case 4:
+                                break;
+                            case 5:
+                                /* code */
+                                break;
+                            
+                            case 99:
+                                break;
+                        }
+                        break;
+                }
+                break;
+            
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                break;
+            case 7:
+                break;
+        }
         break;
     case 6:
+    // Balance 
         break;
     case 7:
+    // Today's Special
         break;
     case 8:
+    // Velocity Lite
         break;
     case 9:
+    // Buy4Other
         break;
     }
     return 0;
