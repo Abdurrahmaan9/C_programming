@@ -5,10 +5,12 @@ int main()
 {
     /* code */
     char code[] = "*117#";
-    char userCode[5];
-    scanf("%4s", &userCode);
-    
-    if (strcmp(userCode, code) == 0){
+    char userCode[5];  // Make sure to allocate space for the null terminator '\0'
+
+    printf("Enter a code: ");
+    scanf("%4s", userCode);
+
+    if (strcmp(userCode, code) == 0) {
         /* code */
         int user;
         printf("\tWelcome to the ZAMTEl Menu\n");

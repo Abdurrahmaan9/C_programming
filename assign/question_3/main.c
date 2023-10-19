@@ -420,6 +420,7 @@ int main(){
                                 }
                                 break;
                         }
+                        break;
                     case 3:
                         /* Supa cheza Monthly */
                         printf("1) Get 1200 onNet Mins for 30 Days @ K100\n");
@@ -726,6 +727,7 @@ int main(){
                                 printf("Subscription cancelled\n");
                                 break;
                             }
+                            break;
                     case 2:
                         printf("Subscription cancelled\n");
                         break;
@@ -786,7 +788,6 @@ int main(){
                         printf("2) Mobile Money\n");
                         // break;
 
-                
                         scanf("%d", &user);
                         switch(user){
                             // under option 3
@@ -803,6 +804,7 @@ int main(){
                                 printf("Subscription cancelled\n");
                                 break;
                             }
+                            break;
                     case 2:
                         printf("Subscription cancelled\n");
                         break;
@@ -812,6 +814,7 @@ int main(){
                     main();
                     break;
                 }
+                break;
         case 2:
             /* Ni Yathu weekly */
             printf("\tNi Yathu weekly\n");
@@ -857,10 +860,12 @@ int main(){
                                 printf("Subscription cancelled\n");
                                 break;
                             }
+                            break;
                     case 2:
                         printf("Subscription cancelled\n");
                         break;
                     }
+                    break;
                 case 2:
                     printf("Are you sure you want to subscribe to 70mins,220sms and 80mb for K10\n");
                     printf("1) Yes\n");
@@ -894,10 +899,12 @@ int main(){
                                 printf("Subscription cancelled\n");
                                 break;
                             }
+                            break;
                     case 2:
                         printf("Subscription cancelled\n");
                         break;
                     }
+                    break;
                 case 3:
                     printf("Are you sure you want to subscribe to 150mins,300sms and 100mb for K20\n");
                     printf("1) Yes\n");
@@ -935,6 +942,7 @@ int main(){
                         printf("Subscription cancelled\n");
                         break;
                     }
+                    break;
                 case 4:
                     printf("Are you sure you want to subscribe to 220mins,400sms and 150mb for K30\n");
                     printf("1) Yes\n");
@@ -967,10 +975,12 @@ int main(){
                                     printf("Subscription cancelled\n");
                                     break;
                                 }
+                                break;
                         case 2:
                             printf("Subscription cancelled\n");
                             break;
                     }
+                    break;
                 case 5:
                     printf("Are you sure you want to subscribe to 350mins,800sms and 400mb for K50\n");
                     printf("1) Yes\n");
@@ -1004,6 +1014,7 @@ int main(){
                                 printf("Subscription cancelled\n");
                                 break;
                             }
+                            break;
                     case 2:
                         printf("Subscription cancelled\n");
                         break;
