@@ -1,0 +1,23 @@
+﻿Calculator program
+
+This program is a simple calculator that can perform basic arithmetic operations (+, -, *, /, and ^) on two numbers. It can also calculate the sine, cosine, and tangent of a number.
+
+Usage
+
+To use the program, simply compile and run it. When the program starts, it will prompt you to select an operator and enter two numbers. The program will then perform the operation and print the result to the console.
+
+Examples
+To calculate the sum of two numbers, enter + as the operator and enter the two numbers to be added. For example, to calculate the sin of 3 and 20, you would enter the following:
+
+
+To calculate the sine of a number, enter s as the operator and enter the number whose sine you want to calculate. For example, to calculate the sine of 30 degrees, you would enter the following:
+
+
+Error handling
+
+If you enter an invalid operator, the program will print an error message and exit.
+
+
+Conclusion
+
+This program is a simple calculator that can be used to perform basic arithmetic operations and calculate trigonometric functions. It is easy to use and understand.

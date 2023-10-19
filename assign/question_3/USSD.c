@@ -1,11 +1,14 @@
 #include <stdio.h>
+#include <string.h>
+
 int main()
 {
     /* code */
-    char code = '*117#';
-    int userCode;
-    scanf("%d", &userCode);
-    if (userCode == code){
+    char code[] = "*117#";
+    char userCode[5];
+    scanf("%4s", &userCode);
+    
+    if (strcmp(userCode, code) == 0){
         /* code */
         int user;
         printf("\tWelcome to the ZAMTEl Menu\n");
